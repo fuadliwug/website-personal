@@ -1,0 +1,113 @@
+.different-hotels div{
+    padding-left: 50px;
+  }
+
+  .different-hotels h2 {
+    font-size: 36px;
+    font-family: 'Bebas Neue', sans-serif;
+  }
+
+  .different-hotels p {
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 30px;
+  }
+
+  .different-hotels button {
+    background-color: #000;
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  .back-to-top {
+    padding-top: 80px;
+    text-align: center;
+  }
+
+  .back-to-top button{
+    background-color: #000;
+    color: #fff;
+    width: 15%;
+  }
+
+
+  .footer-line {
+    margin-top: 50px;
+    border: 0;
+    border-top: 1px solid #c9c7c7;
+  }
+
+
+  .footer {
+    width: 100%;
+    padding: 50px 5%;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 8fr 3fr 3fr;
+    align-items: start;
+
+  }
+
+
+.col-1 button {
+    border: 0;
+    background-color: #104C97;
+    color: #fff;
+    width: 162px;
+}
+
+
+
+  .col-2 a{
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    padding-top: 12px;
+    color: #686868;
+
+  }
+
+  .col-3 a{
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    padding-top: 12px;
+    color: #686868;
+  }
+
+  .footer div h3 {
+    font-weight: 300;
+    margin-bottom: 30px;
+
+  }
+
+  .social-icons {
+    margin-top: 30px;
+  }
+
+  .social-icons i{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  @media (max-width: 1208px) {
+    .destinations-images img{
+      width: 404.59px;
+      height: 539.45px;
+    }
+
+    .experience-images img {
+      width: 404.59px;
+      height: 269.72;
+    }
+
+    .different-hotels {
+      display: block;
+
+    }
+
+    .different-hotels img{
+      width: 100%;
+      height: auto;
